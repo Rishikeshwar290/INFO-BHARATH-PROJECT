@@ -1,0 +1,18 @@
+*{box-sizing:border-box;font-family:Inter, system-ui, Arial}
+body{margin:0;background: linear-gradient(135deg, #ff0000 0%, #ffcc00 100%);background-attachment: fixed;color:#222;min-height:100vh;font-family:'Arial', sans-serif}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:#ff0000;border-bottom:1px solid #eee}
+.topbar .brand a{text-decoration:none;color:#333;font-weight:700}
+.topbar nav a{margin-left:12px;text-decoration:none;color:#FFD700;font-weight:500;transition:color 0.3s ease;}
+.topbar nav a:hover{color:#FFA500;}
+.container{padding:20px;max-width:900px;margin:0 auto}
+.hero{display:flex;gap:20px;align-items:center}
+.btn{background:#333;color:#fff;padding:8px 12px;border:none;border-radius:6px;cursor:pointer}
+.btn.ghost{background:#fff;border:1px solid #ccc;color:#333}
+.menu-category{margin-bottom:16px}
+.menu-item img{width:100%;height:auto;object-fit:cover;border-radius:4px;background:#FAF9F6;padding:8px;}
+.menu-item{display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:15px;border-left: 8px solid #8B4513;border-right: 8px solid #8B4513;border-top: 1px solid #eee;border-bottom: 1px solid #eee;border-radius:8px;background:linear-gradient(135deg, #8a2be2 0%, #ff00aa 100%);gap:12px;box-shadow: 0 4px 8px rgba(0,0,0,0.15);transition: all 0.3s ease;}
+.menu-item:hover{transform: translateY(-5px);box-shadow: 0 6px 12px rgba(0,0,0,0.2);}
+.cart-item{display:flex;justify-content:space-between;padding:8px;border-bottom:1px solid #f1f1f1}
+.cart-summary{margin-top:12px;display:flex;justify-content:space-between;align-items:center}
+.order-card{border:1px solid #eee;padding:10px;margin:10px 0;background:#fff}
+.footer{text-align:center;padding:12px;color:#888;margin-top:30px}
