@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "id": "HwSxDZdF",
+      "name": "Admin",
+      "email": "admin@aniicone.local",
+      "password": "$2a$10$/6UACkATLfwkydwbTGiAXO2O9n2yhqVLeYRvFCvqHYFI0l8XN/ooy",
+      "isAdmin": true
+    }
+  ],
+  "menu": [
+    {
+      "id": "drink1",
+      "category": "Drinks",
+      "name": "Cold Coffee",
+      "price": 20,
+      "image": "/cold coffee.jpg"
+    },
+    {
+      "id": "drink2",
+      "category": "Drinks",
+      "name": "Cold Coffee With Ice Cream",
+      "price": 40,
+      "image": "/cold cofee with ice cream.jpg"
+    },
+    {
+      "id": "drink3",
+      "category": "Drinks",
+      "name": "cup pizza",
+      "price": 15,
+      "image": "/hotcofee.jpg"
+    },
+    {
+      "id": "drink4",
+      "category": "Drinks",
+      "name": "Masala Chai",
+      "price": 20,
+      "image": "/Masala chai.jpg"
+    },
+    {
+      "id": "burger1",
+      "category": "Burgers",
+      "name": "Regular Burger",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop"
+    },
+    {
+      "id": "burger2",
+      "category": "Burgers",
+      "name": "Cheese Burger",
+      "price": 30,
+      "image": "/burger.jpg"
+    },
+    {
+      "id": "burger3",
+      "category": "Burgers",
+      "name": "Cheese Paneer Loded",
+      "price": 40,
+      "image": "cheese-paneer-loaded.jpg"
+    },
+    {
+      "id": "burger4",
+      "category": "Burgers",
+      "name": "Regular Burger (alu Tikki)",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop"
+    },
+    {
+      "id": "burger5",
+      "category": "Burgers",
+      "name": "Cheese Burger (alu Tikki)",
+      "price": 40,
+      "image": "cheeseburger aloo tikki.jpg"
+    },
+    {
+      "id": "burger6",
+      "category": "Burgers",
+      "name": "Cheese Paneer Loded (alu Tikki)",
+      "price": 50,
+      "image": "cheese paneer loaded with aloo.jpg"
+    },
+    {
+      "id": "pizza1",
+      "category": "Cone Pizza",
+      "name": "Regular Pizza",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop"
+    },
+    {
+      "id": "pizza2",
+      "category": "Cone Pizza",
+      "name": "Corn Pizza",
+      "price": 60,
+      "image": "/pizza-cone.jpg"
+    },
+    {
+      "id": "pizza3",
+      "category": "Cone Pizza",
+      "name": "Paneer Pizza",
+      "price": 60,
+      "image": "paneer-pizza-recipe.jpg"
+    },
+    {
+      "id": "pizza4",
+      "category": "Cone Pizza",
+      "name": "Corn Paneer Pizza",
+      "price": 70,
+      "image": "corn paneer pizza.jpg"
+    },
+    {
+      "id": "pizza5",
+      "category": "Cone Pizza",
+      "name": "Extra Cheese",
+      "price": 10,
+      "image": "extra cheese.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": "kiBG5uG0",
+      "timestamp": "2025-11-16T06:55:47.965Z",
+      "items": [
+        {
+          "id": "drink1",
+          "name": "Cold Coffee",
+          "price": 20,
+          "qty": 1
+        }
+      ],
+      "customer": {
+        "name": "jo",
+        "phone": "789"
+      },
+      "subtotal": 20,
+      "tax": 1.4,
+      "total": 21.4,
+      "status": "Pending"
+    },
+    {
+      "id": "L5m7nvgF",
+      "timestamp": "2025-11-16T11:58:02.809Z",
+      "items": [
+        {
+          "id": "drink1",
+          "name": "Cold Coffee",
+          "price": 20,
+          "qty": 1
+        }
+      ],
+      "customer": {
+        "name": "a",
+        "phone": "9"
+      },
+      "subtotal": 20,
+      "tax": 1.4,
+      "total": 21.4,
+      "status": "Pending"
+    },
+    {
+      "id": "YXutl3cz",
+      "timestamp": "2025-11-16T12:10:14.577Z",
+      "items": [
+        {
+          "id": "drink1",
+          "name": "Cold Coffee",
+          "price": 20,
+          "qty": 1
+        }
+      ],
+      "customer": {
+        "name": "a",
+        "phone": "7"
+      },
+      "subtotal": 20,
+      "tax": 1.4,
+      "total": 21.4,
+      "status": "Pending"
+    },
+    {
+      "id": "OmHB0y3e",
+      "timestamp": "2025-11-16T12:18:45.709Z",
+      "items": [
+        {
+          "id": "drink1",
+          "name": "Cold Coffee",
+          "price": 20,
+          "qty": 1
+        },
+        {
+          "id": "drink2",
+          "name": "Cold Coffee With Ice Cream",
+          "price": 40,
+          "qty": 1
+        },
+        {
+          "id": "burger3",
+          "name": "Cheese Paneer Loded",
+          "price": 40,
+          "qty": 1
+        },
+        {
+          "id": "burger5",
+          "name": "Cheese Burger (alu Tikki)",
+          "price": 40,
+          "qty": 1
+        },
+        {
+          "id": "pizza5",
+          "name": "Extra Cheese",
+          "price": 10,
+          "qty": 1
+        }
+      ],
+      "customer": {
+        "name": "ravi",
+        "phone": "9876543210"
+      },
+      "subtotal": 150,
+      "tax": 10.5,
+      "total": 160.5,
+      "status": "Pending"
+    }
+  ]
+}
